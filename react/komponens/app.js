@@ -5,7 +5,9 @@ function App(){
             className:"border"
         },
         "Doboz",
-        React.createElement(BoxComponent)
+        React.createElement(BoxComponent),
+        React.createElement(BoxComponent),
+      React.createElement(BoxComponent),
  
  
     );

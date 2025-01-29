@@ -30,7 +30,7 @@ db.query(sql, (err,result) => {
 app.post("/ujregio", (req, res) => {
     const { Rid, regionev, regio_tipusa } = req.body;
     const sql = "INSERT INTO `regiok` (`Rid`, `regionev`, `regio_tipusa`) VALUES (?, ?, ?)";
-    const VALUES = ['11', 'Budapest', 'Főváros'];
+    const VALUES = ['12', 'KisVarda', 'Főváros'];
  
     db.query(sql, VALUES, (err, result) => {
         if (err) return res.json(err);
